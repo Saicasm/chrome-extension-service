@@ -14,7 +14,6 @@ document.addEventListener("DOMContentLoaded", function () {
 function captureData() {
   // Replace this with your logic to find the element by its text content
   const searchText = "Software"; // Replace with the text you want to find
-  console.log("test");
   const wholeDOM = document.documentElement.outerHTML;
   const targetElement = document.querySelector(
     ".scaffold-layout__detail.overflow-x-hidden.jobs-search__job-details"
