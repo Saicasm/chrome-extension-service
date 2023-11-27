@@ -4,7 +4,7 @@
   "version": "1.0",
   "description": "Scrape data from the current tab and send it to a backend server.",
   "permissions": ["activeTab","scripting"],
-  "action": {
+      "action": {
     "default_popup": "popup.html",
     "default_icon": {
       "16": "icon.png",
